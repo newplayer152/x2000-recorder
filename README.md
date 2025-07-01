@@ -85,3 +85,48 @@
 ![image-20250701151559989](images/image-20250701151559989.png)
 
 ![image-20250701151632286](images/image-20250701151632286.png)
+
+
+
+
+
+**相关配置：**
+
+sdk/kernel/kernel-4.4.94/arch/mips/boot/dts/ingenic/halley5_v20.dts内容添加或修改
+
+&uart5 {
+	status = "okay";
+	pinctrl-names = "default";
+	pinctrl-0 = <&uart5_pa>;
+};
+&uart6 {
+	status = "okay";
+	pinctrl-names = "default";
+	pinctrl-0 = <&uart6_pa>;
+};
+&sadc {
+	status = "okay";
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
